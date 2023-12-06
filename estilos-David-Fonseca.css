@@ -1,28 +1,28 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background: linear-gradient(to right, #0707e0, rgb(228, 73, 12))
 }
 
-h2 {
-    color: #007bff;
-    border-bottom: 2px solid #007bff;
+.mb-3 {
+    color: #0b3905;
+    border-bottom: 2px solid #ff9500;
 }
 
-.btn-primary {
-    background-color: #28a745;
-    border-color: #28a745;
+.mb-3 {
+    background-color: rgb(110, 50, 41);
+    border-color: #a78928;
 }
 
-form {
+.mb-3 {
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid #dee2e6;
+    border: 1px solid #04192e;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .form-label {
-    color: #6c757d;
+    color: #00060b;
 }
 
 .form-control {
@@ -31,7 +31,7 @@ form {
 
 @media (min-width: 992px) {
     body {
-        background-color: #e9ecef;
+        background-color: #59a413;
     }
 }
 
@@ -39,10 +39,10 @@ form {
     margin-top: 10px;
 }
 
-.footer {
+.mb-3 {
     margin-top: 20px;
     padding: 10px;
-    background-color: #343a40;
+    background-color: rgb(29, 200, 194);
     color: white;
     text-align: center;
 }
